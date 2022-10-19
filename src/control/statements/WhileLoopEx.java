@@ -6,7 +6,7 @@ public class WhileLoopEx {
 		 * while(true){ statement }
 		 */
 		int startingNumber = 1;
-		int endingNumber = 10;
+		int endingNumber = 100;
 		while (startingNumber <= endingNumber) {
 			System.out.println(startingNumber);
 			startingNumber++;
