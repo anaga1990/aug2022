@@ -8,13 +8,17 @@ public class ExOFMethod {
 	 * (inheritance of the class = protected) (any one can access = public)
 	 * 
 	 * 2 = keyword (static or Non-static(instance method Note:if its non-static
-	 * method we need created object and call the method))
+	 * method we need created object and call the method))(OPTIONAL)
 	 * 
 	 * 3 = method need to return =Primitive/non-Primitive, do want to return = void
-	 * 4 = method name 5 = Arguments/parameters (zero , one , more) Body 1 = if your
+	 * 4 = method name
+	 * 5 = Arguments/parameters (zero , one , more) Body 1 = if your
 	 * method have return type as we declared in 3 point we must return in method
 	 * body
 	 */
+
+	
+	
 	public static void main(String[] args) {
 		System.out.println(isBigvalue(120));
 	
@@ -46,7 +50,5 @@ public class ExOFMethod {
 		return value;
 	}
 	
-	public ExOFMethod() {
-		System.out.println("asbnsbnS");
-	}
+	
 }
