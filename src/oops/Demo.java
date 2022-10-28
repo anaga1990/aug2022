@@ -17,4 +17,8 @@ public class Demo {
 		//NO
 		// return type no added 
 	}
+	
+	public String carCompanyStarted() {
+		return "";
+	}
 }

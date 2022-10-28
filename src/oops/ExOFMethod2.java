@@ -1,7 +1,6 @@
 package oops;
 
 public class ExOFMethod2 {
-
 	// method overloading : if you have more than one method() with same method name with in the class/in same class,  
 	//method name same but 
 	//different parameters or different type of Data type for parameters
