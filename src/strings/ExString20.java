@@ -15,6 +15,5 @@ public class ExString20 {
 		System.out.println(Boolean.valueOf(a));//int,long,float,double
 		String dd = "11212.33";
 		System.out.println(Double.valueOf(dd));
-		
 	}
 }
