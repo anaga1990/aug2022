@@ -13,7 +13,7 @@ public class ArraysEx3 {
 		tenthMarks[15] = 35; // sl
 		tenthMarks[16] = 35; // sl
 		tenthMarks[29] = 35; // sl
-
+		tenthMarks[3] = 200; // ma
 		System.out.println("size of the array => " + tenthMarks.length);
 		for (int marksIndex = 0; marksIndex < tenthMarks.length; marksIndex++) {
 			System.out.println(tenthMarks[marksIndex]);
