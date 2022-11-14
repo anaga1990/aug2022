@@ -1,11 +1,11 @@
 package collection.fw;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
-public class ExArrayList {
+public class ExLinkedList {
 	public static void main(String[] args) {
-		List<Integer> l = new ArrayList<Integer>();
+		List<Integer> l = new LinkedList<Integer>();
 		l.add(10);
 		l.add(2);
 		l.add(5);
@@ -18,7 +18,7 @@ public class ExArrayList {
 		l.add(null);
 		System.out.println(l);
 		/*
-		 * ArrayList store the Data in user provided Order,
+		 * LINKEDLIST store the Data in user provided Order,
 		 * Duplicates values allowed
 		 * null allowed
 		 * [10, 2, 5, 7, 9, 0, 10, 0, null, null]
