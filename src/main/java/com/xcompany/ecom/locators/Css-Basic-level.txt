@@ -1,0 +1,34 @@
+css
+=-============= ctrl +f
+<input value="radio2" name="radioButton" class="radioButton" type="radio">
+tagname[attribute='value of attribute']
+
+input[value='radio2']
+input[type='checkbox'][id='checkBoxOption3']
+input[type='checkbox'][id='checkBoxOption3'][value='option3']
+tagname[attribute='value of attribute']
+
+tagname#ID_attribute_value
+tagname.className_attribute_value
+
+tagname[attribute*='value of attribute']
+(* means Contains word must present with the value)
+^ start-with
+$ end-with
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xpath

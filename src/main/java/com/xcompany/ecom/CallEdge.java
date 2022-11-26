@@ -6,5 +6,6 @@ public class CallEdge {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.edge.driver", "./webdrivers_binarys/msedgedriver.exe");
 		EdgeDriver driver = new EdgeDriver();
+		driver.close();
 	}
 }
