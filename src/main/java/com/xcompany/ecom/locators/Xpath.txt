@@ -1,0 +1,61 @@
+
+xpath
+===============
+absolute/ fullpath
+/html/body/div[3]/div[2]/fieldset[2]/div[1]/table/tbody/tr[2]/td[1]
+
+relative
+//tagname
+(//td)[2]
+
+<input value="radio3" name="radioButton" class="radioButton" type="radio">
+//tagname[@attribute='attribute_value']
+//input[@value='radio3']   == xpath
+input[value='radio3']  == css
+//input[@id='checkBoxOption1' and @value='option1']
+//input[@id='checkBoxOption1' and @value='option1' and @name='checkBoxOption1' and @type='checkbox']
+//input[@id='checkBoxOption1' and @value='option1' and @type='checkbox']
+
+
+<input id="checkBoxOption2"  type="checkbox">
+<input value="option2" type="checkbox">
+ 
+//input[@id='checkBoxOption2' or @value='option2']
+//input[@id='checkBoxOption3' and @value='option3']
+
+//tagname[text()='TEXT to locate']
+//td[text()='Ben']
+//td[text()='Engineer']
+
+//td[text()='Ivory']/following-sibling::td[text()='Chennai']
+
+
+AND
+=========
+t + t = true
+false + true = false
+ture + false = false
+f + f = false
+
+or
+==========
+t + t = t
+t + f = t
+f + t = t
+f + f = f
+
+ write xpath based on "Web Table Fixed header" get where amount = 28
+ write xpath based on "Web Table Example" get where price = 30 (2nd record)
+
+
+
+
+
+
+
+
+
+
+
+
+
