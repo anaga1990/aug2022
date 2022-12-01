@@ -34,7 +34,7 @@ AND
 =========
 t + t = true
 false + true = false
-ture + false = false
+true + false = false
 f + f = false
 
 or
@@ -48,12 +48,18 @@ f + f = f
  write xpath based on "Web Table Example" get where price = 30 (2nd record)
 
 
+//img[contains(@alt,'Carrot')]/parent::div/following-sibling::div[@class='product-action']/button
+//img[contains(@alt,'Beans')]/parent::div/following-sibling::div[@class='product-action']/button
+//img[contains(@alt,'Pumpkin')]/parent::div/following-sibling::div[@class='product-action']/button
 
+//button[contains(text(),'ADD TO CART')]
+//h4[text()='Cucumber - 1 Kg']/parent::div/preceding-sibling::div[1]/div[@class='product-action']/button
 
+//h4[text()='Cucumber - 1 Kg']/parent::div/preceding-sibling::div[1]/div[@class='product-action']/button/parent::div/parent::div/following-sibling::div[2]/div[@class='product-action']/button
 
+//h4[text()='Cucumber - 1 Kg']/parent::div/following::h4[text()='Raspberry - 1/4 Kg']
 
-
-
+//span[normalize-space()='selenium']
 
 
 
