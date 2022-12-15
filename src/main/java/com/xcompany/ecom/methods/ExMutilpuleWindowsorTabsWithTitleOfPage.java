@@ -1,12 +1,11 @@
 package com.xcompany.ecom.methods;
 
 import java.time.Duration;
-import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class ExMutilpuleWindowsorTabsWithTitleOfPage {
 	public static void main(String[] args) throws InterruptedException {
@@ -14,7 +13,10 @@ public class ExMutilpuleWindowsorTabsWithTitleOfPage {
 		driver.get("https://www.hyrtutorials.com/p/window-handles-practice.html");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-		Thread.sleep(5000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		Actions actions = new Actions(driver);
+		actions.scrollToElement(driver.findElement(By.xpath("//h2[normalize-space()='Connect With us']")));
+		actions.build().perform();
 		driver.findElement(By.id("newWindowsBtn")).click();
 		String parentWindow = driver.getWindowHandle();
 		Set<String> allWindows = driver.getWindowHandles();
