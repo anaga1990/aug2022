@@ -1,11 +1,9 @@
 package com.xcompany.ecom.methods;
 
 import java.time.Duration;
-import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ExMutilpuleWindowsorTabsWithTitleOfPage2 {

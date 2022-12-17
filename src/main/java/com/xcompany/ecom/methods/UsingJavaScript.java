@@ -1,5 +1,6 @@
 package com.xcompany.ecom.methods;
 
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -21,5 +22,7 @@ public class UsingJavaScript {
 		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
 		javascriptExecutor.executeScript("arguments[0].click();", radioButonEx);
 		javascriptExecutor.executeScript("arguments[0].value='nagarjuna123';", driver.findElement(By.id("autocomplete")));
+		driver.close();
 	}
+	
 }
