@@ -27,17 +27,12 @@ public class CalendarhadlingEx7 {
 		actions.click(driver.findElement(By.xpath("//li[@data-cy='roundTrip']"))).perform();
 		driver.findElement(By.xpath("//li[@data-cy='oneWayTrip']")).click();
 		driver.findElement(By.xpath("//label[contains(@for,'departure')]/span")).click();
-		System.out
-				.println(driver.findElement(By.xpath("(//div[@class='DayPicker-Month']/div[1]/div[1])[1]")).getText());
-		System.out.println("===== NUMBER of elements"
-				+ driver.findElements(By.xpath("//div[@class='DayPicker-Month']/div[1]/div[1]")).size());
 		
 		Boolean isSelected = false;
 		while (true) {
 			List<WebElement> lisOfElements = driver
 					.findElements(By.xpath("//div[@class='DayPicker-Month']/div[1]/div[1]"));
 			for (WebElement tag : lisOfElements) {
-				System.out.println("befor if " + tag.getText());
 				if (tag.getText().equalsIgnoreCase(userMonthAndYear(value))) {
 					String ele = "//div[contains(text(),'" + monthAndYear
 							+ "')]/parent::div/following-sibling::div[2]/div/div/div/p[text()='" + dateToPick + "']";
@@ -47,14 +42,14 @@ public class CalendarhadlingEx7 {
 				}
 			}
 			if(isSelected == false) {
-				Thread.sleep(1000);
+				Thread.sleep(500);
 				driver.findElement(By.xpath("//span[@aria-label='Next Month']")).click();
 			} else {
 				break;
 			}
 		}
 
-		// driver.quit();
+		//driver.quit();
 
 	}
 
