@@ -17,14 +17,13 @@ public class MarksTest {
 		System.out.println(a+ " "+b+" "+c+" "+d+" "+e+" "+f);
 	}
 	
-	@Test(dataProvider = "nameTest", dataProviderClass = com.test.e2e.TestData.class, timeOut = 1000)
+	@Test(dataProvider = "nameTest", dataProviderClass = com.test.e2e.TestData.class)
 	public void f3(String a) throws InterruptedException {
-		Thread.sleep(3000);
 		System.out.println(a);
 	}
 	
 	@Parameters({"user","pwd"})
-	@Test
+	@Test(enabled = false)
 	public void f4(String a, String b) {
 		System.out.println(a);
 		System.out.println(b);

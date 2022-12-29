@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="36" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-29T19:48:40 IST" name="Suite" finished-at="2022-12-29T19:48:41 IST" duration-ms="114">
+    <groups>
+      <group name="regressionTest">
+        <method signature="APIModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LogOutApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LoginApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.addAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="addAddress" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.deleteAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="deleteAddress" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderAndroidPhone()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderAndroidPhone" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderHomeApplications()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderHomeApplications" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderIphone" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderToys()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderToys" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.updateAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="updateAddress" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest2.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LogOutApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LoginApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.addAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="addAddress" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.deleteAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="deleteAddress" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderAndroidPhone()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderAndroidPhone" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderHomeApplications()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderHomeApplications" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderIphone" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderToys()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderToys" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.updateAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="updateAddress" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="MobileModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LogOutApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LoginApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.addAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="addAddress" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.deleteAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="deleteAddress" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderAndroidPhone()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderAndroidPhone" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderHomeApplications()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderHomeApplications" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderIphone()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderIphone" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderToys()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderToys" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.updateAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="updateAddress" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="WebBrowserModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LogOutApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LoginApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.addAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="addAddress" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.deleteAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="deleteAddress" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderAndroidPhone()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderAndroidPhone" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderHomeApplications()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderHomeApplications" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderIphone()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderIphone" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderToys()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderToys" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.updateAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="updateAddress" class="com.test.e2e.WebBrowserModuleTest"/>
+      </group> <!-- regressionTest -->
+      <group name="mobileTest">
+        <method signature="MobileModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LogOutApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LoginApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.addAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="addAddress" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.deleteAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="deleteAddress" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderAndroidPhone()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderAndroidPhone" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderHomeApplications()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderHomeApplications" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderIphone()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderIphone" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderToys()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderToys" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.updateAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="updateAddress" class="com.test.e2e.MobileModuleTest"/>
+      </group> <!-- mobileTest -->
+      <group name="APIV2Test">
+        <method signature="APIModuleTest2.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LogOutApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LoginApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.addAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="addAddress" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.deleteAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="deleteAddress" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderAndroidPhone()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderAndroidPhone" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderHomeApplications()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderHomeApplications" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderIphone" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderToys()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderToys" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.updateAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="updateAddress" class="com.test.e2e.APIModuleTest2"/>
+      </group> <!-- APIV2Test -->
+      <group name="smoke">
+        <method signature="MobileModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LogOutApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LoginApplication" class="com.test.e2e.MobileModuleTest"/>
+      </group> <!-- smoke -->
+      <group name="APITest">
+        <method signature="APIModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LogOutApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LoginApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.addAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="addAddress" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.deleteAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="deleteAddress" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderAndroidPhone()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderAndroidPhone" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderHomeApplications()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderHomeApplications" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderIphone" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderToys()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderToys" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.updateAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="updateAddress" class="com.test.e2e.APIModuleTest"/>
+      </group> <!-- APITest -->
+      <group name="loginTest">
+        <method signature="APIModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LogOutApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LoginApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest2.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LogOutApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LoginApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="MobileModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LogOutApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LoginApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="WebBrowserModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LogOutApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LoginApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+      </group> <!-- loginTest -->
+      <group name="sanityTest">
+        <method signature="APIModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LogOutApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="LoginApplication" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.addAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="addAddress" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest.orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" name="orderIphone" class="com.test.e2e.APIModuleTest"/>
+        <method signature="APIModuleTest2.LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LogOutApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="LoginApplication" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.addAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="addAddress" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="APIModuleTest2.orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" name="orderIphone" class="com.test.e2e.APIModuleTest2"/>
+        <method signature="MobileModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LogOutApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="LoginApplication" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.addAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="addAddress" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="MobileModuleTest.orderIphone()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" name="orderIphone" class="com.test.e2e.MobileModuleTest"/>
+        <method signature="WebBrowserModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LogOutApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LoginApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.addAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="addAddress" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderIphone()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderIphone" class="com.test.e2e.WebBrowserModuleTest"/>
+      </group> <!-- sanityTest -->
+      <group name="WebBrowserTest">
+        <method signature="WebBrowserModuleTest.LogOutApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LogOutApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.LoginApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="LoginApplication" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.addAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="addAddress" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.deleteAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="deleteAddress" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderAndroidPhone()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderAndroidPhone" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderHomeApplications()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderHomeApplications" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderIphone()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderIphone" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.orderToys()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="orderToys" class="com.test.e2e.WebBrowserModuleTest"/>
+        <method signature="WebBrowserModuleTest.updateAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" name="updateAddress" class="com.test.e2e.WebBrowserModuleTest"/>
+      </group> <!-- WebBrowserTest -->
+    </groups>
+    <test started-at="2022-12-29T19:48:40 IST" name="Test" finished-at="2022-12-29T19:48:41 IST" duration-ms="114">
+      <class name="com.test.e2e.APIModuleTest">
+        <test-method signature="LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="LogOutApplication" finished-at="2022-12-29T19:48:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method signature="LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="LoginApplication" finished-at="2022-12-29T19:48:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method signature="addAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="addAddress" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="deleteAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="deleteAddress" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAddress -->
+        <test-method signature="orderAndroidPhone()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="orderAndroidPhone" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderAndroidPhone -->
+        <test-method signature="orderHomeApplications()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="orderHomeApplications" finished-at="2022-12-29T19:48:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHomeApplications -->
+        <test-method signature="orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="orderIphone" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderIphone -->
+        <test-method signature="orderToys()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="orderToys" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderToys -->
+        <test-method signature="updateAddress()[pri:0, instance:com.test.e2e.APIModuleTest@175b9425]" started-at="2022-12-29T19:48:40 IST" name="updateAddress" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+      </class> <!-- com.test.e2e.APIModuleTest -->
+      <class name="com.test.e2e.WebBrowserModuleTest">
+        <test-method signature="LogOutApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="LogOutApplication" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method signature="LoginApplication()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="LoginApplication" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method signature="addAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="addAddress" finished-at="2022-12-29T19:48:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="deleteAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="deleteAddress" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAddress -->
+        <test-method signature="orderAndroidPhone()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="orderAndroidPhone" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderAndroidPhone -->
+        <test-method signature="orderHomeApplications()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="orderHomeApplications" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHomeApplications -->
+        <test-method signature="orderIphone()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="orderIphone" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderIphone -->
+        <test-method signature="orderToys()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="orderToys" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderToys -->
+        <test-method signature="updateAddress()[pri:0, instance:com.test.e2e.WebBrowserModuleTest@2f54a33d]" started-at="2022-12-29T19:48:41 IST" name="updateAddress" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+      </class> <!-- com.test.e2e.WebBrowserModuleTest -->
+      <class name="com.test.e2e.MobileModuleTest">
+        <test-method signature="LogOutApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:40 IST" name="LogOutApplication" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method signature="LoginApplication()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:40 IST" name="LoginApplication" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method signature="addAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:40 IST" name="addAddress" finished-at="2022-12-29T19:48:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="deleteAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:41 IST" name="deleteAddress" finished-at="2022-12-29T19:48:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAddress -->
+        <test-method signature="orderAndroidPhone()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:41 IST" name="orderAndroidPhone" finished-at="2022-12-29T19:48:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderAndroidPhone -->
+        <test-method signature="orderHomeApplications()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:41 IST" name="orderHomeApplications" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHomeApplications -->
+        <test-method signature="orderIphone()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:41 IST" name="orderIphone" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderIphone -->
+        <test-method signature="orderToys()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:41 IST" name="orderToys" finished-at="2022-12-29T19:48:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderToys -->
+        <test-method signature="updateAddress()[pri:0, instance:com.test.e2e.MobileModuleTest@55740540]" started-at="2022-12-29T19:48:41 IST" name="updateAddress" finished-at="2022-12-29T19:48:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+      </class> <!-- com.test.e2e.MobileModuleTest -->
+      <class name="com.test.e2e.APIModuleTest2">
+        <test-method signature="LogOutApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="LogOutApplication" finished-at="2022-12-29T19:48:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method signature="LoginApplication()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="LoginApplication" finished-at="2022-12-29T19:48:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method signature="addAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="addAddress" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="deleteAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="deleteAddress" finished-at="2022-12-29T19:48:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAddress -->
+        <test-method signature="orderAndroidPhone()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="orderAndroidPhone" finished-at="2022-12-29T19:48:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderAndroidPhone -->
+        <test-method signature="orderHomeApplications()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="orderHomeApplications" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHomeApplications -->
+        <test-method signature="orderIphone()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="orderIphone" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderIphone -->
+        <test-method signature="orderToys()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="orderToys" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderToys -->
+        <test-method signature="updateAddress()[pri:0, instance:com.test.e2e.APIModuleTest2@37f1104d]" started-at="2022-12-29T19:48:40 IST" name="updateAddress" finished-at="2022-12-29T19:48:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+      </class> <!-- com.test.e2e.APIModuleTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
