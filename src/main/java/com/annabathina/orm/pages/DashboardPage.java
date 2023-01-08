@@ -13,7 +13,12 @@ public class DashboardPage {
 	@FindBy (xpath = "//h6[normalize-space()='Dashboard']") WebElement dashboard_text_verify;
 	@FindBy (xpath = "//span[contains(@class,'oxd-userdropdown-tab')]/i") WebElement userLogoutMenu_click;
 	@FindBy (linkText = "Logout") WebElement logout_click;
+	@FindBy (xpath="//span[text()='Admin']") WebElement admin_menu;
+	@FindBy (xpath="//span[normalize-space()='PIM']") WebElement pim_menu;
+	@FindBy (xpath="//span[normalize-space()='Leave']") WebElement leave_menu;
 	
+	
+	@FindBy (xpath="//span[normalize-space()='Dashboard']") WebElement dashboard_menu_click;
 	
 	public DashboardPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -27,9 +32,29 @@ public class DashboardPage {
 		System.out.println("verifyDashboardPageText() Assert Success");
 	}
 	
+	public String getDashboardPageText() {
+		return dashboard_text_verify.getText().trim();
+		
+	}
 	public void logOutOrm() {
 		userLogoutMenu_click.click();
 		logout_click.click();
+	}
+	
+	
+	public AdminPage navigate_to_AdminPage() {
+		admin_menu.click();
+		return new AdminPage(driver);
+	}
+	
+	public DashboardPage navigate_to_Dashboard_menu() {
+		dashboard_menu_click.click();
+		return new DashboardPage(driver);
+	}
+	
+	public LeavePage navigate_to_LeavePage() {
+		leave_menu.click();
+		return new LeavePage(driver);
 	}
 	
 	

@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-06T21:01:51 IST" name="Default suite" finished-at="2023-01-06T21:02:13 IST" duration-ms="21732">
+  <suite started-at="2023-01-08T21:03:18 IST" name="Default suite" finished-at="2023-01-08T21:03:27 IST" duration-ms="8860">
     <groups>
     </groups>
-    <test started-at="2023-01-06T21:01:51 IST" name="Default test" finished-at="2023-01-06T21:02:13 IST" duration-ms="21732">
-      <class name="com.annabathina.orm.tests.v2.OrmLoginV2Test">
-        <test-method is-config="true" signature="OpenApplicationInWebBrowser()[pri:0, instance:com.annabathina.orm.tests.v2.OrmLoginV2Test@290222c1]" started-at="2023-01-06T21:01:51 IST" name="OpenApplicationInWebBrowser" finished-at="2023-01-06T21:01:56 IST" duration-ms="4846" status="PASS">
+    <test started-at="2023-01-08T21:03:18 IST" name="Default test" finished-at="2023-01-08T21:03:27 IST" duration-ms="8860">
+      <class name="com.annabathina.orm.tests.v2.GetCurrentLeaveListTest">
+        <test-method is-config="true" signature="OpenApplicationInWebBrowser()[pri:0, instance:com.annabathina.orm.tests.v2.GetCurrentLeaveListTest@290222c1]" started-at="2023-01-08T21:03:18 IST" name="OpenApplicationInWebBrowser" finished-at="2023-01-08T21:03:23 IST" duration-ms="4700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApplicationInWebBrowser -->
-        <test-method signature="ormApplicationLoginAndlogoutVerification()[pri:0, instance:com.annabathina.orm.tests.v2.OrmLoginV2Test@290222c1]" started-at="2023-01-06T21:01:56 IST" name="ormApplicationLoginAndlogoutVerification" finished-at="2023-01-06T21:02:04 IST" duration-ms="8459" status="PASS">
+        <test-method signature="getCurrentLeaveListTest()[pri:0, instance:com.annabathina.orm.tests.v2.GetCurrentLeaveListTest@290222c1]" started-at="2023-01-08T21:03:23 IST" name="getCurrentLeaveListTest" finished-at="2023-01-08T21:03:27 IST" duration-ms="4124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ormApplicationLoginAndlogoutVerification -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.annabathina.orm.tests.v2.OrmLoginV2Test@290222c1]" started-at="2023-01-06T21:02:04 IST" name="closeBrowser" finished-at="2023-01-06T21:02:05 IST" duration-ms="282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="OpenApplicationInWebBrowser()[pri:0, instance:com.annabathina.orm.tests.v2.OrmLoginV2Test@290222c1]" started-at="2023-01-06T21:02:05 IST" name="OpenApplicationInWebBrowser" finished-at="2023-01-06T21:02:09 IST" duration-ms="4033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenApplicationInWebBrowser -->
-        <test-method signature="ormApplicationLoginAndlogoutVerificationV2()[pri:0, instance:com.annabathina.orm.tests.v2.OrmLoginV2Test@290222c1]" started-at="2023-01-06T21:02:09 IST" name="ormApplicationLoginAndlogoutVerificationV2" finished-at="2023-01-06T21:02:13 IST" duration-ms="3821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ormApplicationLoginAndlogoutVerificationV2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.annabathina.orm.tests.v2.OrmLoginV2Test@290222c1]" started-at="2023-01-06T21:02:13 IST" name="closeBrowser" finished-at="2023-01-06T21:02:13 IST" duration-ms="236" status="PASS">
+        </test-method> <!-- getCurrentLeaveListTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.annabathina.orm.tests.v2.GetCurrentLeaveListTest@290222c1]" started-at="2023-01-08T21:03:27 IST" name="closeBrowser" finished-at="2023-01-08T21:03:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.annabathina.orm.tests.v2.OrmLoginV2Test -->
+      </class> <!-- com.annabathina.orm.tests.v2.GetCurrentLeaveListTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

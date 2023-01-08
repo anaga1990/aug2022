@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.annabathina.orm.pages.DashboardPage;
 import com.annabathina.orm.pages.LoginPage;
@@ -31,12 +32,15 @@ public class OrmLoginV2Test {
 		System.out.println("ormApplicationLoginAndlogoutVerification Started");
 		LoginPage loginPage = new LoginPage(driver);
 		String actual_login_page_title=loginPage.getLoginPageTitle();
-		Assert.assertEquals(actual_login_page_title, "OrangeHRM");
+		SoftAssert softAssert = new SoftAssert();
+		softAssert.assertEquals(actual_login_page_title, "OrangeHRM", "ormApplicationLoginAndlogoutVerification softassert Failed");
 		loginPage.enterTheUsername();
 		loginPage.enterThePassword();
 		DashboardPage dashboardPage = loginPage.clickOnLogin();
 		dashboardPage.verifyDashboardPageText();
 		dashboardPage.logOutOrm();
+		System.out.println("ormApplicationLoginAndlogoutVerification End");
+		softAssert.assertAll();
 	}
 	
 	@Test
@@ -44,10 +48,11 @@ public class OrmLoginV2Test {
 		System.out.println("ormApplicationLoginAndlogoutVerificationV2 Started");
 		LoginPage loginPage = new LoginPage(driver);
 		String actual_login_page_title=loginPage.getLoginPageTitle();
-		Assert.assertEquals(actual_login_page_title, "OrangeHRM");
+		Assert.assertEquals(actual_login_page_title, "OrangeHRM","ormApplicationLoginAndlogoutVerificationV2 HardAsster Failed"); //hard Assert
 		DashboardPage dashboardPage = loginPage.loginOrm();
 		dashboardPage.verifyDashboardPageText();
 		dashboardPage.logOutOrm();
+		System.out.println("ormApplicationLoginAndlogoutVerificationV2 End");
 	}
 	
 	@AfterMethod

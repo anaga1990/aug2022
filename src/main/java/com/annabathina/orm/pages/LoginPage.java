@@ -12,6 +12,8 @@ public class LoginPage {
 	@FindBy (xpath = "//input[@placeholder='Password']") WebElement password_text;
 	@FindBy (xpath = "//button[normalize-space()='Login']") WebElement login_button;
 	
+	//By username = By.xpath("//input[@placeholder='Username']");
+	
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
@@ -28,6 +30,7 @@ public class LoginPage {
 	public DashboardPage clickOnLogin() {
 		login_button.click();
 		return new DashboardPage(driver);
+		
 	}
 	
 	public DashboardPage loginOrm() {

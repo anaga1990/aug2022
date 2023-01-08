@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.annabathina.orm.tests.v2.OrmLoginV2Test">
+      <class name="com.annabathina.orm.tests.v2.GetCurrentLeaveListTest">
         <methods>
-          <include name="ormApplicationLoginAndlogoutVerification"/>
-          <include name="closeBrowser"/>
-          <include name="ormApplicationLoginAndlogoutVerificationV2"/>
+          <include name="getCurrentLeaveListTest"/>
           <include name="OpenApplicationInWebBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.annabathina.orm.tests.v2.OrmLoginV2Test -->
+      </class> <!-- com.annabathina.orm.tests.v2.GetCurrentLeaveListTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
